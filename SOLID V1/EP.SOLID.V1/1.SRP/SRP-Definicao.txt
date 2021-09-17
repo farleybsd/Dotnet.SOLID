@@ -1,0 +1,31 @@
+﻿O Single Responsibility Principle (SRP) ou Princípio da Responsabilidade Única é o primeiro e um dos
+mais importantes princípios da orientação a objetos (OOP).
+
+“Uma classe deve ter um, e somente um, motivo para ser modificada”
+
+Indo um pouco mais fundo, podemos dizer que para o sistema esteja de acordo com esse princípio,
+cada responsabilidade deve ser uma classe e cada classe deve ter uma única responsabilidade.
+Vejamos a classe abaixo:
+
+public class GerarNotaFiscal{
+	public void ValidarDadosDoCliente(){ ... }
+	public void GerarImpostoFiscal(decimal ValorVenda){ ... }
+	public void SalvarNotaFiscal(decimal ValorFinal) { ... }
+	public void ImprimirCupomFiscal() { ... }
+	public void EnviarCupomPorEmail() { ... }
+}
+
+Aqui temos uma classe fictícia, que apesar de compilar e rodar, tem uma série de responsabilidades estas que
+não são inerentes a ela:
+
+Validar dados do Cliente;
+Gerar Imposto;
+Salvar Cupom Fiscal;
+Imprimir Cupom Fiscal;
+Enviar Cupom por e-mail
+
+Opa, mas se ela tem 5 responsabilidades ela tem 5 motivos para ser modificada. 
+
+
+1 Passo Criar a entidade Cliente
+2 Criar os Servicos para cada propiedade da entidade

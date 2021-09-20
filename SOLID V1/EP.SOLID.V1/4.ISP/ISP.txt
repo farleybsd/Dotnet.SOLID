@@ -1,0 +1,4 @@
+﻿O Interface Segregation Principle (ISP) ou Princípio da Segregação de Interface trata das desvantagens da implementação de interfaces “gordas”.
+
+Ao ISP atribuímos a seguinte premissa:
+Crie interfaces granulares a específicas para os seus clientes.

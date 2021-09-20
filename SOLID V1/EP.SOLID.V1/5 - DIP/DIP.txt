@@ -1,0 +1,13 @@
+﻿O Dependency Inversion Principle (DIP) ou 
+Princípio da Inversão de Dependência é a base para termos
+um projeto com um excelente design orientado a objetos,
+focado no domínio e com um arquitetura flexível.
+
+O DIP é regido pela seguinte premissa:
+
+Dependa de abstrações e não de implementações.
+
+De uma forma objetiva o princípio nos faz entender
+que sempre devemos depender de abstrações e não das
+implementações, afinal de contas, as abstrações mudam
+menos e facilitam a mudança de comportamento e as evoluções do código.

@@ -72,6 +72,20 @@
     <Compile Include="4.ISP\ISP.VIOLACAO\CadastroCliente.cs" />
     <Compile Include="4.ISP\ISP.VIOLACAO\CadastroProduto.cs" />
     <Compile Include="4.ISP\ISP.VIOLACAO\ICadastro.cs" />
+    <Compile Include="5 - DIP\DIP.Solucao\Cliente.cs" />
+    <Compile Include="5 - DIP\DIP.Solucao\ClienteRepository.cs" />
+    <Compile Include="5 - DIP\DIP.Solucao\ClienteServices.cs" />
+    <Compile Include="5 - DIP\DIP.Solucao\CPFServices.cs" />
+    <Compile Include="5 - DIP\DIP.Solucao\EmailServices.cs" />
+    <Compile Include="5 - DIP\DIP.Solucao\Interfaces\IClienteRepository.cs" />
+    <Compile Include="5 - DIP\DIP.Solucao\Interfaces\IClienteServices.cs" />
+    <Compile Include="5 - DIP\DIP.Solucao\Interfaces\ICPFServices.cs" />
+    <Compile Include="5 - DIP\DIP.Solucao\Interfaces\IEmailServices.cs" />
+    <Compile Include="5 - DIP\DIP.Violacao\Cliente.cs" />
+    <Compile Include="5 - DIP\DIP.Violacao\ClienteRepository.cs" />
+    <Compile Include="5 - DIP\DIP.Violacao\ClienteService.cs" />
+    <Compile Include="5 - DIP\DIP.Violacao\CPFServices.cs" />
+    <Compile Include="5 - DIP\DIP.Violacao\EmailServices.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -83,6 +97,7 @@
     <Content Include="2.OCP\OCP.txt" />
     <Content Include="3.LSP\LSP.txt" />
     <Content Include="4.ISP\ISP.txt" />
+    <Content Include="5 - DIP\DIP.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

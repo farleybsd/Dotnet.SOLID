@@ -48,6 +48,17 @@
     <Compile Include="1.SRP\SRP.Solucao\Services\CPFServices.cs" />
     <Compile Include="1.SRP\SRP.Solucao\Services\EmailServices.cs" />
     <Compile Include="1.SRP\SRP.Violacao\Cliente.cs" />
+    <Compile Include="2.OCP\OCP.Solucao Extension Methods\CaixaEletronico.cs" />
+    <Compile Include="2.OCP\OCP.Solucao Extension Methods\DebitoConta.cs" />
+    <Compile Include="2.OCP\OCP.Solucao Extension Methods\DebitoContaCorrente.cs" />
+    <Compile Include="2.OCP\OCP.Solucao Extension Methods\DebitoContaInvestimento.cs" />
+    <Compile Include="2.OCP\OCP.Solucao Extension Methods\DebitoContaPoupanca.cs" />
+    <Compile Include="2.OCP\OCP.SOLUCAO\DebitoConta.cs" />
+    <Compile Include="2.OCP\OCP.SOLUCAO\DebitoContaCorrente.cs" />
+    <Compile Include="2.OCP\OCP.SOLUCAO\DebitoContaInvestimento.cs" />
+    <Compile Include="2.OCP\OCP.SOLUCAO\DebitoContaPoupanca.cs" />
+    <Compile Include="2.OCP\OCP.VIOLACAO\DebitoConta.cs" />
+    <Compile Include="2.OCP\OCP.VIOLACAO\TipoConta.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -56,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1.SRP\SRP-Definicao.txt" />
+    <Content Include="2.OCP\OCP.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

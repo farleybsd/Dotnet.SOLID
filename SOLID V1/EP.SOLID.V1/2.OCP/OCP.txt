@@ -1,0 +1,10 @@
+﻿O Open Closed Principle ou Principio do aberto/fechado (OCP) é também um dos mais importantes da OOP (princípios da orientação a objetos)
+e certamente um dos mais complicados para se implementar, por isso dificilmente programadores o praticam.
+
+O principio tem como objetivo trabalhar diretamente com a manutenção das classes e tem como premissa a seguinte afirmativa:
+
+“Você deve ser capaz de estender um comportamento de uma classe sem a necessidade de modificá-lo.”
+
+Ou seja, as entidades de software como classes, módulos, funções, etc, devem estar abertas para extensão, porém fechadas para modificação.
+Em outras palavras significa que esta classe pode ter seu comportamento alterado com facilidade quando necessário, sem a alteração do seu código fonte.
+Essa extensão pode ser feita através de herança, interface e composição.

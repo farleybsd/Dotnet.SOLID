@@ -1,0 +1,12 @@
+﻿O Liskov Substitution Principle (LSP) ou Princípio de Substituição de
+Liskov está diretamente ligado ao OCP (Open Closed Principle) foi criado
+por Barbara Liskov uma grande cientista da computação americana.
+
+O LSP tem como objetivo nos alertar quanto a utilização da herança,
+que é um poderoso mecanismo e deve ser utilizado com extrema parcimônia.
+O princípio é baseado na seguinte premissa:
+
+As classes derivadas devem ser substituíveis por suas classes bases.
+
+Sera usabado o base nas classes derivas apotando para construtor da classe
+principal

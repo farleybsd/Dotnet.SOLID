@@ -1,0 +1,8 @@
+﻿55:36
+Container Injecao de Depedencia
+ninject
+http://www.ninject.org/
+autofac
+https://autofac.org/
+simpleinjector
+https://simpleinjector.org/
